@@ -2,7 +2,7 @@
 
 Aplicação para gestão de produtividade baseada no método Pomodoro.
 
-![Aplicação Screenshot]()
+![Aplicação Screenshot](focus-timer-v2/print.png)
 
 ## Características:
 
