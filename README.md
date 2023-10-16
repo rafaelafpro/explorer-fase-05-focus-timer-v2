@@ -31,4 +31,4 @@ MIT
 
 ---
 
-Desenvolvido com ❤️ por [Seu Nome Aqui].
+Desenvolvido com ❤️ por Rafael.
