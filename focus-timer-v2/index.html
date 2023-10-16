@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicação para gestão de produtividade baseada no método Pomodoro">
+    <title>FocusTimer v2 - Pomodoro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <script type="module" src="src/main.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <section>
+            <div id="timer">
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </div>
+            <div id="controls">
+                <button data-action="toggleCountdown" id="play" class="ph ph-play-circle"></button>
+                <button data-action="toggleCountdown" id="stop" class="ph ph-stop-circle"></button>
+                <button data-action="addFiveMinutes" id="plus" class="ph ph-plus-circle"></button>
+                <button data-action="removeFiveMinutes" id="minus" class="ph ph-minus-circle"></button>
+            </div>
+        </section>
+        <section id="sounds">
+            <button id="tree" class="ph ph-tree"></button>
+            <button id="rain" class="ph ph-cloud-rain"></button>
+            <button id="coffee" class="ph ph-storefront"></button>
+            <button id="fire" class="ph ph-fire"></button>
+        </section>
+    </div>
+</body>
+</html>
